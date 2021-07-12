@@ -25,9 +25,7 @@ class RawGestureDetectorWidget extends StatelessWidget {
   final Color color;
 
   RawGestureDetectorWidget(
-      {@required this.child, @required this.constraints, this.color})
-      : assert(child != null),
-        assert(constraints != null);
+      {required this.child, required this.constraints, this.color});
 
   @override
   Widget build(BuildContext context) {
