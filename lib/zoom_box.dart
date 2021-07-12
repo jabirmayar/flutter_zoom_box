@@ -20,14 +20,11 @@ class ZoomBox extends StatelessWidget {
       this.padding,
       this.backgroundColor,
       this.borderRadius = const BorderRadius.all(Radius.circular(0)),
-      @required this.width,
-      @required this.height,
+      required this.width,
+      required this.height,
       this.constraints,
       this.margin,
-      @required this.child})
-      : assert(child != null),
-        assert(width != null),
-        assert(height != null);
+      required this.child});
 
   @override
   Widget build(BuildContext context) {
