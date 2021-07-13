@@ -15,7 +15,7 @@ class RemoveScrollGlow extends ScrollBehavior {
 class DragAndScale extends ScaleGestureRecognizer {
   @override
   void rejectGesture(int pointer) {
-    acceptGesture(pointer);
+    acceptGesture(pointer); 
   }
 }
 
