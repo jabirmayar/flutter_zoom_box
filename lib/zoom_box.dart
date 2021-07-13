@@ -43,7 +43,7 @@ class ZoomBox extends StatelessWidget {
               create: (context) => ZoomModel(),
               child: RawGestureDetectorWidget(
                   constraints: constraints,
-                  color: this.backgroundColor,
+                  color: this.backgroundColor!,
                   child: this.child),
             );
           },
