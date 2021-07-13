@@ -23,6 +23,6 @@ flutter:
     platforms:
       android:
         package: com.virtually.flutter_zoom_box
-        pluginClass: flutter_zoom_box
+        pluginClass: FlutterZoomBoxPlugin
       ios:
-        pluginClass: flutter_zoom_box
+        pluginClass: FlutterZoomBoxPlugin
