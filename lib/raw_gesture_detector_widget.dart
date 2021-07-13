@@ -22,7 +22,7 @@ class DragAndScale extends ScaleGestureRecognizer {
 class RawGestureDetectorWidget extends StatelessWidget {
   final Widget child;
   final BoxConstraints constraints;
-  final Color color;
+  final Color? color;
 
   RawGestureDetectorWidget(
       {required this.child, required this.constraints, this.color});
