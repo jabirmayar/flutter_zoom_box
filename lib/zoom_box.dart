@@ -5,17 +5,17 @@ import 'package:provider/provider.dart';
 
 class ZoomBox extends StatelessWidget {
   final Widget child;
-  final AlignmentGeometry alignment;
-  final EdgeInsetsGeometry padding;
-  final BoxConstraints constraints;
-  final EdgeInsetsGeometry margin;
+  final AlignmentGeometry? alignment;
+  final EdgeInsetsGeometry? padding;
+  final BoxConstraints? constraints;
+  final EdgeInsetsGeometry? margin;
   final double height;
   final double width;
-  final BorderRadius borderRadius;
-  final Color backgroundColor;
+  final BorderRadius? borderRadius;
+  final Color? backgroundColor;
 
   ZoomBox(
-      {Key key,
+      {Key? key,
       this.alignment,
       this.padding,
       this.backgroundColor,
