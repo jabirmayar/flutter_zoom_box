@@ -7,7 +7,7 @@ class ZoomBox extends StatelessWidget {
   final Widget child;
   final AlignmentGeometry? alignment;
   final EdgeInsetsGeometry? padding;
-  final BoxConstraints? constraints;
+  final BoxConstraints? constraints; 
   final EdgeInsetsGeometry? margin;
   final double height;
   final double width;
