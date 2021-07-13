@@ -12,13 +12,13 @@ class ZoomBox extends StatelessWidget {
   final double height;
   final double width;
   final BorderRadius? borderRadius;
-  final Color? backgroundColor;
+  final Color backgroundColor;
 
   ZoomBox(
       {Key? key,
       this.alignment,
       this.padding,
-      this.backgroundColor,
+      required this.backgroundColor,
       this.borderRadius = const BorderRadius.all(Radius.circular(0)),
       required this.width,
       required this.height,
@@ -43,7 +43,7 @@ class ZoomBox extends StatelessWidget {
               create: (context) => ZoomModel(),
               child: RawGestureDetectorWidget(
                   constraints: constraints,
-                  color: this.backgroundColor!,
+                  color: this.backgroundColor,
                   child: this.child),
             );
           },
